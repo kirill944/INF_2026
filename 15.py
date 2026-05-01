@@ -13,7 +13,7 @@ for a in range(100):
             # Условие
             u = (2*x - y >= a) and (y>=17) and (78>=x)
             if u:
-                f = False
+                flag = False
     # Если условие выполнено, A подходит
-    if f:
+    if flag:
         print(a)
