@@ -12,3 +12,5 @@ def f_dels(x):
             dels.append(i)
             dels.append(x // i)
     return list(set(dels))
+
+print("Hello world")
