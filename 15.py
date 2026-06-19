@@ -11,8 +11,8 @@ for a in range(100):
     for x in range(1000):
         for y in range(1000):
             # Условие
-            u = (2*x - y >= a) and (y>=17) and (78>=x)
-            if u:
+            u = (2*x - y >= a) or (y>=17) or (78>=x)
+            if not u:
                 flag = False
     # Если условие выполнено, A подходит
     if flag:
